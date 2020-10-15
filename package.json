@@ -6,12 +6,13 @@
   "license": "MIT",
   "scripts": {
     "build:dev": "webpack",
-    "build:prod": "webpack -p --env production",
+    "build:prod": "webpack",
     "dev-server": "env-cmd -f ./config/dev.env webpack serve",
     "destroy": "rm -Rf public/dist",
     "clean": "rm -rf node_modules/ install",
     "start": "node server/server.js",
-    "pretty": "prettier --semi false --print-width 100 --single-quote --trailing-comma all --write \"src/**/*.js\" --write \"src/**/*.scss\""
+    "pretty": "prettier --semi false --print-width 100 --single-quote --trailing-comma all --write \"src/**/*.js\" --write \"src/**/*.scss\"",
+    "heroku-postbuild": "yarn run build:prod"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
