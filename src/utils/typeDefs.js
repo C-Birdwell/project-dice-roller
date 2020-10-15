@@ -1,0 +1,8 @@
+export const D2 = 'd2'
+export const D4 = 'd4'
+export const D6 = 'd6'
+export const D8 = 'd8'
+export const D10 = 'd10'
+export const D20 = 'd20'
+export const D100 = 'd100'
+export const DICE_AMOUNT = 'dice_amount'

@@ -1,16 +1,8 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-const Header = () => (
+export const Header = () => (
   <header>
-    <h1>Thinkology 101</h1>
-    <NavLink to="/" activeClassName="is-active" exact={true}>
-      Dashboard
-    </NavLink>
-    <NavLink to="/create" activeClassName="is-active">
-      Create Expense
-    </NavLink>
+    <h1>Dice Roller</h1>
   </header>
 )
-
-export default Header

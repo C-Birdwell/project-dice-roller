@@ -1,0 +1,18 @@
+//@import '../utils/import';
+
+.row {
+  //flex-direction: row;
+  & * {
+    display: inline-block;
+  }
+}
+
+@for $i from 1 through 10 {
+  .col-#{$i} {
+    flex: $i;
+  }
+}
+
+.center {
+  justify-content: center;
+}
