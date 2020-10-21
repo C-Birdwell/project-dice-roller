@@ -6,3 +6,6 @@ export const D10 = 'd10'
 export const D20 = 'd20'
 export const D100 = 'd100'
 export const DICE_AMOUNT = 'dice_amount'
+
+export const USERNAME = 'username'
+export const ROOM_ID = 'room_id'
